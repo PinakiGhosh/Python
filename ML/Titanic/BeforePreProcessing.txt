@@ -1,0 +1,20 @@
+After removing null in Age
+<class 'xgboost.sklearn.XGBClassifier'> 0.849162011173
+<class 'sklearn.svm.classes.SVC'> 0.787709497207
+<class 'sklearn.linear_model.logistic.LogisticRegression'> 0.793296089385
+<class 'sklearn.ensemble.forest.RandomForestClassifier'> 0.804469273743
+<class 'sklearn.naive_bayes.GaussianNB'> 0.804469273743
+<class 'sklearn.svm.classes.SVC'> 0.787709497207
+<class 'sklearn.tree.tree.DecisionTreeClassifier'> 0.782122905028
+<class 'sklearn.neighbors.classification.KNeighborsClassifier'> 0.77094972067
+
+
+Before removing null in Age
+<class 'xgboost.sklearn.XGBClassifier'> 0.843575418994
+<class 'sklearn.ensemble.forest.RandomForestClassifier'> 0.798882681564
+<class 'sklearn.linear_model.logistic.LogisticRegression'> 0.793296089385
+<class 'sklearn.svm.classes.SVC'> 0.798882681564
+<class 'sklearn.svm.classes.SVC'> 0.787709497207
+<class 'sklearn.naive_bayes.GaussianNB'> 0.793296089385
+<class 'sklearn.tree.tree.DecisionTreeClassifier'> 0.810055865922
+<class 'sklearn.neighbors.classification.KNeighborsClassifier'> 0.77094972067
